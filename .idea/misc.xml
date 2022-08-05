@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/yusha/AndroidStudioProjects/LoginApp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.159" />
+        <entry key="..\:/Users/yusha/AndroidStudioProjects/LoginApp/app/src/main/res/drawable/round_back_light_10.xml" value="0.159" />
         <entry key="..\:/Users/yusha/AndroidStudioProjects/LoginApp/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
-        <entry key="..\:/Users/yusha/AndroidStudioProjects/LoginApp/app/src/main/res/layout/activity_place_holder.xml" value="0.13949275362318841" />
+        <entry key="..\:/Users/yusha/AndroidStudioProjects/LoginApp/app/src/main/res/layout/activity_messenger.xml" value="0.22" />
+        <entry key="..\:/Users/yusha/AndroidStudioProjects/LoginApp/app/src/main/res/layout/activity_place_holder.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/yusha/AndroidStudioProjects/LoginApp/app/src/main/res/layout/activity_register_user.xml" value="0.16458333333333333" />
+        <entry key="..\:/Users/yusha/AndroidStudioProjects/LoginApp/app/src/main/res/layout/messages_adapter_layout.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/yusha/AndroidStudioProjects/LoginApp/app/src/main/res/layout/rectangular.xml" value="0.16458333333333333" />
       </map>
     </option>

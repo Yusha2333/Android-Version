@@ -21,7 +21,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.regex.Pattern;
 
 public class RegisterUser extends AppCompatActivity implements View.OnClickListener{
-    private TextView registerUser;
+    private TextView registerUser, loginUser;
     private EditText editUserName, editEmail, editPassword;
 
     private FirebaseAuth mAuth;
@@ -35,6 +35,9 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
         registerUser = (Button) findViewById(R.id.submit);
         registerUser.setOnClickListener(this);
 
+        loginUser = (TextView) findViewById(R.id.alreadyRegister);
+        loginUser.setOnClickListener(this);
+
         editUserName = (EditText) findViewById(R.id.username);
         editEmail = (EditText) findViewById(R.id.email);
         editPassword = (EditText) findViewById(R.id.password);
@@ -45,6 +48,9 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()) {
             case R.id.submit:
                 registerUser();
+                break;
+            case R.id.alreadyRegister:
+                startActivity(new Intent(this, MainActivity.class));
                 break;
         }
     }
